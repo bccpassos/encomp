@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+
+/*
+    -------- CSS GERAL --------
+*/
+html, body{
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+body, nav, .conteudoSbr, .header, .datas, .conteudProg, #progInd{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+/*
+    -------- CSS NAV --------
+*/
+nav{    
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-family: 'Bebas Neue', cursive;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    padding-top: 15px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav li{
+    list-style-type: none;
+    margin: 15px;
+    font-size: 30px;
+}
+
+/*
+    -------- CSS HEADER --------
+*/
+.header{
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+.header p{
+    font-size: 45px;
+    margin: 0;
+    max-width: 110vh;
+}
+#logotipo{
+    width: 48vw;
+    color: black;
+    margin-bottom: 40px;
+} 
+#eventoOnline{
+    background-color: #FFCC29;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    width: 400px;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;    
+}
+.numero{
+    font-size: 42px;
+    text-align: center;
+    padding: 5px;
+}
+
+/*
+    -------- CSS SOBRE --------
+*/
+.sobre{
+    width: 90%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    min-height: 85vh;
+    margin-bottom: 25px;
+}
+
+.conteudoSbr{
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+#divImg{
+    width: 180pt;
+}
+
+#divTxt{
+    margin-left: 60px;
+    width: 80vh;
+    text-align: justify;
+}
+
+#img_sobre{
+    width: 180pt;
+}
+
+/*
+    -------- CSS PROGRAMAÇÃO --------
+*/
+.programacao{
+    background-color: white;
+    width: 100%; 
+    font-family: 'Roboto', sans-serif;
+}
+.arredondado{
+    background-color: #f6f6f6;
+    border-top-right-radius: 30%;
+    height: 250px;
+}
+.conteudProg{
+    margin-top: -185px;
+    background-color: #f6f6f6;
+    width: 100%;
+    color: black;
+    min-height: 100vh;
+    flex-direction: column; 
+    padding-bottom: 35px;
+}
+.datas{
+    flex-direction: row;
+    margin: 0;
+    width: 80%;
+    border: 1px solid gray;
+    margin-bottom: 15px;
+}
+#botao1, #botao2, #botao3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    background-color: #dfe4ea;
+    border: none;
+    width: 40%;
+    margin:-2px;
+    outline: none;
+}
+#botao1{
+    background-color: #b2bec3;
+}  
+#progInd{
+    width: 600px;
+    background-color: #f6f6f6;
+    flex-direction: row;
+}
+#icone{
+    height: 70px;
+}
+#descProg{
+    width: 450px;
+    border-left: 3px solid #FFCC29;
+    border-top: 2px solid #dfe4ea;
+    border-right: 2px solid #dfe4ea;
+    border-bottom: 2px solid #dfe4ea;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 30px;
+    margin-left: 15px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+#tituloProg{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#horario{
+    color: #FFCC29;
+    font-weight: bolder;
+}
+
+#responsavel{
+    font-weight: bolder;
+}
+
+#breve_desc{
+    font-weight: bolder;
+    text-align: justify;
+    color: #FFCC29;
+}
+
+#linkMais{
+    color: black;
+}
+
+/*
+    -------- CSS ORGANIZAÇÃO --------
+*/
+.tudo{
+    background-color: #1c1d21;
+}
+.primeiradiv{
+    width: 0;
+    height: 0;
+    border-top: 100px solid #fff;
+    border-left: 100vw solid transparent;
+}
+.segundadiv{
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid #fff;
+    border-right: 100vw solid transparent;
+}
+
+
+/*
+    -------- CSS FOOTER --------
+*/
+
+
+
+/*
+    -------- CSS TELA MENOR --------
+*/
+@media(max-width: 650px){
+nav li{
+    font-size: 25px;
+}
+nav p{
+    font-size: 30px;
+}
+.header p{
+    font-size: 35px;
+}
+.numero{
+    font-size: 32px;
+}
+#data{    
+    width: 80%;
+}
+#divTxt{
+    margin-left: 0;
+}
+#progInd{
+    width: 300px;
+}
+}
+    
