@@ -45,7 +45,7 @@ nav a{
 nav li{
     list-style-type: none;
     margin: 15px;
-    font-size: 30px;
+    font-size: 200%;
 }
 
 /*
@@ -257,7 +257,7 @@ nav li{
 */
 @media(max-width: 650px){
 nav li{
-    font-size: 25px;
+    font-size: 80%;
 }
 nav p{
     font-size: 30px;
