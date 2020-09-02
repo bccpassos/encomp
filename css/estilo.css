@@ -10,7 +10,7 @@ html, body{
     overflow-x: hidden;
 }
 
-body, nav, .conteudoSbr, .header, .datas, .conteudProg, #progInd{
+body, nav, .conteudoSbr, .header, .datas, .conteudProg, #progInd, .tudo, .equipe{
     display: flex;
     justify-items: center;
     justify-content: center;
@@ -36,6 +36,7 @@ nav{
     position: fixed;
     top: 0;
     padding-top: 15px;
+    z-index: 1;
 }
 nav a{
     text-decoration: none;
@@ -205,20 +206,43 @@ nav li{
 /*
     -------- CSS ORGANIZAÇÃO --------
 */
+.equipe{
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
 .tudo{
-    background-color: #1c1d21;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    background-color: black;
 }
-.primeiradiv{
-    width: 0;
-    height: 0;
-    border-top: 100px solid #fff;
-    border-left: 100vw solid transparent;
+
+#membro{
+    position: relative;
 }
-.segundadiv{
-    width: 0;
-    height: 0;
-    border-bottom: 100px solid #fff;
-    border-right: 100vw solid transparent;
+
+.tudo img{
+    width: 250px;
+    margin: 15px 15px 30px 15px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(20%);
+}
+
+.tudo span{    
+    position:absolute;
+    bottom:40px;
+    left: 0;
+    transition: .5s ease;
+    text-align: center;
+    opacity:0;    
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Bebas Neue', cursive;
+    background-color: rgba(0,0,0, 0.5);
+}
+.tudo img:hover span{    
+    opacity:1;
 }
 
 

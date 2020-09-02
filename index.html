@@ -20,6 +20,7 @@
     <nav>
         <a onclick="descer('sobre')"><li>Encomp</li></a>
         <a href="#" onclick="descer('programacao')"><li>Programação</li></a>
+        <a href="#" onclick="descer('equipe')"><li>Equipe</li></a>
         <a href="#"><li>Inscrições</li></a>
     </nav>
 
@@ -79,9 +80,19 @@
                 <div id="progInd">
                     <img src="imagens/palestra.png" id="icone">  
                     <div id="descProg">
-                        <p id="tituloProg"> Palestra tal </p>
-                        <p id="horario"> 15:00 </p>
-                        <p id="responsavel"> Palestrante: Albert </p>
+                        <p id="tituloProg"> Palestra do Fabrício </p>
+                        <p id="horario"> 00:00 - 00:00 </p>
+                        <p id="responsavel"> Palestrante: Fabrício Laguna - Cargo </p>
+                        <p id="breve_desc"> + <a href="javascript:PopUp()" id="linkMais"> Ler sobre </a> </p>
+                    </div>                                       
+                </div>
+
+                <div id="progInd">
+                    <img src="imagens/minicurso.png" id="icone"> 
+                    <div id="descProg">
+                        <p id="tituloProg"> Git e GitHub </p>
+                        <p id="horario"> 00:00 - 00:00 </p>
+                        <p id="responsavel"> Ministrante: Marisa Vieira - 8° período </p>
                         <p id="breve_desc"> + <a href="javascript:PopUp()" id="linkMais"> Ler sobre </a> </p>
                     </div>                                       
                 </div>
@@ -89,20 +100,20 @@
                 <div id="progInd">
                     <img src="imagens/minicurso.png" id="icone">
                     <div id="descProg"> 
-                        <p id="tituloProg"> Aprenda programar com Python </p>
-                        <p id="horario"> 18:00 </p>
-                        <p id="responsavel"> Ministrante: Marisa - Pyladies Sul de Minas </p>
-                        <p id="breve_desc"> Este curso será ofertado para todos aqueles que querem aprender alguma linguagem de programação, ou desejam entrar no universo do Python. </p>
+                        <p id="tituloProg"> Introdução ao Arduíno </p>
+                        <p id="horario"> 00:00 - 00:00 </p>
+                        <p id="responsavel"> Ministrante: Albert Medeiros - 6° período </p>
+                        <p id="breve_desc"> + <a href="javascript:PopUp()" id="linkMais"> Ler sobre </a> </p>
                     </div>                                       
                 </div>
 
                 <div id="progInd">
-                    <img src="imagens/rodadeconversa.png" id="icone"> 
+                    <img src="imagens/minicurso.png" id="icone"> 
                     <div id="descProg">
-                        <p id="tituloProg"> Roda de conversa tal </p>
-                        <p id="horario"> 19:00 </p>
-                        <p id="responsavel"> PyLadies Sul de Minas </p>
-                        <p id="breve_desc"> Nesta roda de conversa será discutido assuntos voltado para a área da Computação, como: síndrome do impostor, mercado de trabalho e participação feminina. </p>
+                        <p id="tituloProg"> Primeiros passos na computação quântica </p>
+                        <p id="horario"> 00:00 - 00:00 </p>
+                        <p id="responsavel"> Ministrante: Amanda Valério - 6° período </p>
+                        <p id="breve_desc"> + <a href="javascript:PopUp()" id="linkMais"> Ler sobre </a> </p>
                     </div>                                       
                 </div>
             </div>  
@@ -114,10 +125,33 @@
          --------------------- ORGANIZAÇÃO ---------------------
          -------------------------------------------------------         
     -->
-    <section class="organizacao">
-        <h2 id="titulo"> Organização </h2>
+    <section class="equipe">
+        <h2 id="titulo"> Equipe </h2>
         <div class="tudo">
-            
+            <div class="membro" id="albertM">
+                <img src="imagens/albert.png" onmouseover="MostraTexto('albert')" onMouseOut="TiraTexto('albert')">
+                <span id="albert"> Albert Medeiros - 6° período </span>
+            </div>
+            <div class="membro" id="brunoM">
+                <img src="imagens/bruno.png" onmouseover="MostraTexto('bruno')" onMouseOut="TiraTexto('bruno')">
+                <span id="bruno"> Bruno Silveira - 8° período </span>
+            </div>
+            <div class="membro" id="marisaM">
+                <img src="imagens/marisa.png" onmouseover="MostraTexto('marisa')" onMouseOut="TiraTexto('marisa')">
+                <span id="marisa"> Marisa Vieira - 8° período </span>
+            </div>
+            <div class="membro" id="amandaM">
+                <img src="imagens/amanda.png" onmouseover="MostraTexto('amanda')" onMouseOut="TiraTexto('amanda')">
+                <span id="amanda"> Amanda Valério - 6° período </span>
+            </div>
+            <div class="membro" id="matheusM">
+                <img src="imagens/matheus.png" onmouseover="MostraTexto('matheus')" onMouseOut="TiraTexto('matheus')">
+                <span id="matheus"> Matheus Simões - 6° período </span>
+            </div>
+            <div class="membro" id="vanessaM">
+                <img src="imagens/vanessa.png" onmouseover="MostraTexto('vanessa')" onMouseOut="TiraTexto('vanessa')">
+                <span id="vanessa"> Vanessa Rodrigues - 8° período </span>
+            </div>
         </div>
         
     </section>
