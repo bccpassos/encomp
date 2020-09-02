@@ -121,7 +121,7 @@ nav li{
     -------- CSS PROGRAMAÇÃO --------
 */
 .programacao{
-    background-color: white;
+    background-color: #f6f6f6;
     width: 100%; 
     font-family: 'Roboto', sans-serif;
 }
@@ -203,6 +203,16 @@ nav li{
     color: black;
 }
 
+#inscrever{
+    text-decoration: none;
+    background-color: #FFCC29;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    padding: 15px;
+    margin-top: 40px;
+}
+
 /*
     -------- CSS ORGANIZAÇÃO --------
 */
@@ -249,7 +259,31 @@ nav li{
 /*
     -------- CSS FOOTER --------
 */
+footer{
+    background-color: black;
+    padding-top: 30px;
+    text-align: center;
+}
+.primeiradiv{
+    width: 0;
+    height: 0;
+    border-top: 60px solid transparent;
+    border-right: 100vw solid #FFCC29;
+}
 
+.conteudodiv{
+    background-color: #FFCC29;
+    font-family: 'Bebas Neue', cursive;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer img{
+    height: 30px;
+    margin: 10px;
+}
 
 
 /*
@@ -276,6 +310,9 @@ nav p{
 }
 #progInd{
     width: 300px;
+}
+#divTxt{
+    text-align: center;
 }
 }
     
