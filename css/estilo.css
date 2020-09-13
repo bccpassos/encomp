@@ -97,10 +97,12 @@ nav li{
     flex-direction: column;
     min-height: 85vh;
     margin-bottom: 25px;
+    text-align: center;
 }
 
 .conteudoSbr{
     flex-direction: row;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -308,11 +310,14 @@ footer img{
     -------- CSS TELA MENOR --------
 */
 @media(max-width: 650px){
-nav li{
-    font-size: 80%;
+nav{
+    padding-top: 0;
 }
-nav p{
-    font-size: 30px;
+nav a{
+    font-size: 50%;
+}
+.header{
+    margin: 20px;
 }
 .header p{
     font-size: 35px;
@@ -324,8 +329,10 @@ nav p{
     width: 80%;
 }
 #divTxt{
-    margin-left: 0;
     text-align: center;
+}
+#divTxt p{
+    text-align: justify;
 }
 #progInd{
     width: 300px;
