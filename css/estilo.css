@@ -325,12 +325,13 @@ nav p{
 }
 #divTxt{
     margin-left: 0;
+    text-align: center;
 }
 #progInd{
     width: 300px;
 }
-#divTxt{
-    text-align: center;
+#img_sobre{
+    width: 300px;
 }
 }
     
