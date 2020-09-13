@@ -6,7 +6,7 @@ function descer(tag){
 }
 
 function regressiva(){
-    var target_date = new Date("september 29, 2020").getTime();
+    var target_date = new Date("september 28, 2020").getTime();
     var dias, horas, minutos, segundos;
     setInterval(function () {        
         var current_date = new Date().getTime();
@@ -33,22 +33,46 @@ function programacao(numero){
         document.getElementById('botao1').style.background="#b2bec3";
         document.getElementById('botao2').style.background="#dfe4ea";
         document.getElementById('botao3').style.background="#dfe4ea";
-        document.getElementById('divProg').innerHTML = '<div id="divProg"> <div id="progInd"> <img src="imagens/palestra.png" id="icone"> <div id="descProg"> <p id="tituloProg"> Palestra do Fabrício </p> <p id="horario"> 00:00 - 00:00 </p> <p id="responsavel"> Palestrante: Fabrício Laguna - Cargo </p> <p id="breve_desc"> + <a href="javascript:PopUp()" id="linkMais"> Ler sobre </a> </p> </div> </div> <div id="progInd"> <img src="imagens/minicurso.png" id="icone"> <div id="descProg"> <p id="tituloProg"> Git e GitHub </p> <p id="horario"> 00:00 - 00:00 </p> <p id="responsavel"> Ministrante: Marisa Vieira - 8° período </p> <p id="breve_desc"> + <a href="javascript:PopUp()" id="linkMais"> Ler sobre </a> </p> </div> </div> <div id="progInd"> <img src="imagens/minicurso.png" id="icone"> <div id="descProg"> <p id="tituloProg"> Introdução ao Arduíno </p> <p id="horario"> 00:00 - 00:00 </p> <p id="responsavel"> Ministrante: Albert Medeiros - 6° período </p> <p id="breve_desc"> + <a href="javascript:PopUp()" id="linkMais"> Ler sobre </a> </p> </div> </div> <div id="progInd"> <img src="imagens/minicurso.png" id="icone"> <div id="descProg"> <p id="tituloProg"> Primeiros passos na computação quântica </p> <p id="horario"> 00:00 - 00:00 </p> <p id="responsavel"> Ministrante: Amanda Valério - 6° período </p> <p id="breve_desc"> + <a href="javascript:PopUp()" id="linkMais"> Ler sobre </a> </p> </div> </div> </div>';
+        document.getElementById('botao4').style.background="#dfe4ea";
+        document.getElementById('botao5').style.background="#dfe4ea";
+        document.getElementById('divProg').innerHTML = '<div id="divProg"> <div id="progInd"> <img src="imagens/minicurso.png" id="icone"> <div id="descProg"> <p id="tituloProg"> Minicurso React Native </p> <p id="horario"> 13:00 - 17:00 </p> <p id="responsavel"> Instrutor: Jonathan - 4° Período </p> <p id="breve_desc"> + <a href="javascript:PopUp()" id="linkMais"> Ler sobre </a> </p> </div> </div> <div id="progInd"> <img src="imagens/minicurso.png" id="icone"> <div id="descProg"> <p id="tituloProg"> Minicurso Computação Quântica </p> <p id="horario"> 15:00 - 17:00 </p> <p id="responsavel"> Instrutora: Amanda - 6° Período </p> <p id="breve_desc"> + <a href="javascript:PopUp()" id="linkMais"> Ler sobre </a> </p> </div> </div> <div id="progInd"> <img src="imagens/palestra.png" id="icone"> <div id="descProg"> <p id="tituloProg"> Palestra Análise de Negócios </p> <p id="horario"> 19:00 - 21:00 </p> <p id="responsavel"> Palestrante: Fabrício Laguna </p> <p id="breve_desc"> + <a href="javascript:PopUp()" id="linkMais"> Ler sobre </a> </p> </div> </div> </div>';
     }
     
     if(numero == 2){
         document.getElementById('botao1').style.background="#dfe4ea";
         document.getElementById('botao2').style.background="#b2bec3";
         document.getElementById('botao3').style.background="#dfe4ea";
-        document.getElementById('divProg').innerHTML = '<div id="divProg"> <div id="progInd"> <img src="imagens/palestra.png" id="icone"> <div id="descProg"> <p id="tituloProg"> Lei Geral de Proteção de Dados (LGPD) - Desafios e oportunidades para o profissional de TI </p> <p id="horario"> 00:00 - 00:00 </p> <p id="responsavel"> Palestrante: André Bononi - Perito Digital Forense </p> <p id="breve_desc"> + <a href="javascript:PopUp()" id="linkMais"> Ler sobre </a> </p> </div> </div> <div id="progInd"> <img src="imagens/minicurso.png" id="icone"> <div id="descProg"> <p id="tituloProg"> Aprenda a programar com Python </p> <p id="horario"> 00:00 - 00:00 </p> <p id="responsavel"> Ministrante: Marisa Vieira - 8° período </p> <p id="breve_desc"> + <a href="javascript:PopUp()" id="linkMais"> Ler sobre </a> </p> </div> </div> <div id="progInd"> <img src="imagens/rodadeconversa.png" id="icone"> <div id="descProg"> <p id="tituloProg"> Roda de conversa tal </p> <p id="horario"> 00:00 - 00:00 </p> <p id="responsavel"> PyLadies Sul de Minas </p> <p id="breve_desc"> + <a href="javascript:PopUp()" id="linkMais"> Ler sobre </a> </p> </div> </div> </div>';
+        document.getElementById('botao4').style.background="#dfe4ea";
+        document.getElementById('botao5').style.background="#dfe4ea";
+        document.getElementById('divProg').innerHTML = '<div id="divProg"> <div id="progInd"> <img src="imagens/rodadeconversa.png" id="icone"> <div id="descProg"> <p id="tituloProg"> Roda de Conversa Papo com PyLadies </p> <p id="horario"> 13:00 - 14:30 </p> <p id="responsavel"> PyLadies Sul de Minas </p> <p id="breve_desc"> + <a href="javascript:PopUp()" id="linkMais"> Ler sobre </a> </p> </div> </div> <div id="progInd"> <img src="imagens/minicurso.png" id="icone"> <div id="descProg"> <p id="tituloProg"> Minicurso Arduíno </p> <p id="horario"> 15:00 - 18:00 </p> <p id="responsavel"> Instrutor: Albert - 6° Período </p> <p id="breve_desc"> + <a href="javascript:PopUp()" id="linkMais"> Ler sobre </a> </p> </div> </div> <div id="progInd"> <img src="imagens/palestra.png" id="icone"> <div id="descProg"> <p id="tituloProg"> Palestra Computação Forense </p> <p id="horario"> 19:00 - 21:00 </p> <p id="responsavel"> Palestrante: André Bononi </p> <p id="breve_desc"> + <a href="javascript:PopUp()" id="linkMais"> Ler sobre </a> </p> </div> </div> </div>';
     }
     
     if(numero == 3){
         document.getElementById('botao1').style.background="#dfe4ea";
         document.getElementById('botao2').style.background="#dfe4ea";
         document.getElementById('botao3').style.background="#b2bec3";
-        document.getElementById('divProg').innerHTML = '<div id="divProg"> <div id="progInd"> <img src="imagens/palestra.png" id="icone"> <div id="descProg"> <p id="tituloProg"> Nome Palestra - Anderson Souza </p> <p id="horario"> 00:00 - 00:00 </p> <p id="responsavel"> Palestrante: Anderson Souza - Por algo </p> <p id="breve_desc"> + <a href="javascript:PopUp()" id="linkMais"> Ler sobre </a> </p> </div> </div> <div id="progInd"> <img src="imagens/minicurso.png" id="icone"> <div id="descProg"> <p id="tituloProg"> Docker & Kubernetes </p> <p id="horario"> 00:00 - 00:00 </p> <p id="responsavel"> Ministrante: Luís Felipe - 8° período </p> <p id="breve_desc"> + <a href="javascript:PopUp()" id="linkMais"> Ler sobre </a> </p> </div> </div> <div id="progInd"> <img src="imagens/minicurso.png" id="icone"> <div id="descProg"> <p id="tituloProg"> Introdução ao NodeJs </p> <p id="horario"> 00:00 - 00:00 </p> <p id="responsavel"> Jonatan Bortolon - 4° período </p> <p id="breve_desc"> + <a href="javascript:PopUp()" id="linkMais"> Ler sobre </a> </p> </div> </div> </div>';
-    }    
+        document.getElementById('botao4').style.background="#dfe4ea";
+        document.getElementById('botao5').style.background="#dfe4ea";
+        document.getElementById('divProg').innerHTML = '<div id="divProg"> <div id="progInd"> <img src="imagens/minicurso.png" id="icone"> <div id="descProg"> <p id="tituloProg"> Minicurso React </p> <p id="horario"> 13:00 - 17:00 </p> <p id="responsavel"> Instrutor: Jonathan - 4° Período </p> <p id="breve_desc"> + <a href="javascript:PopUp()" id="linkMais"> Ler sobre </a> </p> </div> </div> <div id="progInd"> <img src="imagens/minicurso.png" id="icone"> <div id="descProg"> <p id="tituloProg"> Minicurso Git e GitHub </p> <p id="horario"> 16:00 - 18:00 </p> <p id="responsavel"> Instrutora: Marisa - 8° Período </p> <p id="breve_desc"> + <a href="javascript:PopUp()" id="linkMais"> Ler sobre </a> </p> </div> </div> <div id="progInd"> <img src="imagens/palestra.png" id="icone"> <div id="descProg"> <p id="tituloProg"> Palestra Lei Geral de Proteção de Dados (LGPD) - Desafios e oportunidades para o profissional de TI </p> <p id="horario"> 19:00 - 21:00 </p> <p id="responsavel"> Palestrante: Anderson Souza </p> <p id="breve_desc"> + <a href="javascript:PopUp()" id="linkMais"> Ler sobre </a> </p> </div> </div> </div>';
+    }  
+    
+    if(numero == 4){
+        document.getElementById('botao1').style.background="#dfe4ea";
+        document.getElementById('botao2').style.background="#dfe4ea";
+        document.getElementById('botao3').style.background="#dfe4ea";
+        document.getElementById('botao4').style.background="#b2bec3";
+        document.getElementById('botao5').style.background="#dfe4ea";
+        document.getElementById('divProg').innerHTML = '<div id="divProg"> <div id="progInd"> <img src="imagens/minicurso.png" id="icone"> <div id="descProg"> <p id="tituloProg"> Minicurso React Native </p> <p id="horario"> 13:00 - 17:00 </p> <p id="responsavel"> Instrutor: Jonathan - 4° Período </p> <p id="breve_desc"> + <a href="javascript:PopUp()" id="linkMais"> Ler sobre </a> </p> </div> </div> <div id="progInd"> <img src="imagens/minicurso.png" id="icone"> <div id="descProg"> <p id="tituloProg"> A importância da acessibilidade em seu site </p> <p id="horario"> 16:00 - 18:00 </p> <p id="responsavel"> Instrutora: Marisa - 8° Período </p> <p id="breve_desc"> + <a href="javascript:PopUp()" id="linkMais"> Ler sobre </a> </p> </div> </div> <div id="progInd"> <img src="imagens/palestra.png" id="icone"> <div id="descProg"> <p id="tituloProg"> Palestra Segurança Ofensiva </p> <p id="horario"> 18:30 - 22:30 </p> <p id="responsavel"> Palestrante: Joatham Pedro </p> <p id="breve_desc"> + <a href="javascript:PopUp()" id="linkMais"> Ler sobre </a> </p> </div> </div> </div>';
+    } 
+    
+    if(numero == 5){
+        document.getElementById('botao1').style.background="#dfe4ea";
+        document.getElementById('botao2').style.background="#dfe4ea";
+        document.getElementById('botao3').style.background="#dfe4ea";
+        document.getElementById('botao4').style.background="#dfe4ea";
+        document.getElementById('botao5').style.background="#b2bec3";
+        document.getElementById('divProg').innerHTML = '<div id="divProg"> <div id="progInd"> <img src="imagens/minicurso.png" id="icone"> <div id="descProg"> <p id="tituloProg"> Minicurso de Docker </p> <p id="horario"> 13:00 - 17:00 </p> <p id="responsavel"> Instrutor: Luís Felipe - 8° Período </p> <p id="breve_desc"> + <a href="javascript:PopUp()" id="linkMais"> Ler sobre </a> </p> </div> </div> <div id="progInd"> <img src="imagens/minicurso.png" id="icone"> <div id="descProg"> <p id="tituloProg"> Aprendendo a programar com Python </p> <p id="horario"> 16:00 - 18:00 </p> <p id="responsavel"> Instrutora: Marisa - 8° Período </p> <p id="breve_desc"> + <a href="javascript:PopUp()" id="linkMais"> Ler sobre </a> </p> </div> </div> <div id="progInd"> <img src="imagens/palestra.png" id="icone"> <div id="descProg"> <p id="tituloProg"> Palestra AWS Business Professional </p> <p id="horario"> 18:30 - 22:30 </p> <p id="responsavel"> Palestrante: Rafael Kelles </p> <p id="breve_desc"> + <a href="javascript:PopUp()" id="linkMais"> Ler sobre </a> </p> </div> </div> </div>';
+    }   
 }
 
 function PopUp(){

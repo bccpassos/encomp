@@ -16,10 +16,10 @@
          ------------------------------------------------         
     -->
     <nav>
-        <a onclick="descer('sobre')"><li>Encomp</li></a>
-        <a href="#" onclick="descer('programacao')"><li>Programação</li></a>
-        <a href="#" onclick="descer('equipe')"><li>Equipe</li></a>
-        <a href="https://www.even3.com.br/viencomp/" target="_blank"><li>Inscrições</li></a>
+        <li><a onclick="descer('sobre')">Encomp</a></li>
+        <li><a href="#" onclick="descer('programacao')">Programação</a></li>
+        <li><a href="#" onclick="descer('equipe')">Equipe</a></li>
+        <li><a href="https://www.even3.com.br/viencomp/" target="_blank">Inscrições</a></li>
     </nav>
 
     <!-- 
@@ -30,7 +30,7 @@
     <section class="header">
         <img id="logotipo" src="imagens/logotipo.png">
         <p id="eventoOnline"> Evento Online </p> 
-        <p> 29/09 a 02/10 </p>     
+        <p> 28/09 a 02/10 </p>     
 
         <div class="contagem">
             <table> <tr>
@@ -51,7 +51,7 @@
         <h2 id="titulo"> O que é o Encomp</h2>
         <div class="conteudoSbr">
             <div id="divImg">
-                <img id="img_sobre" src="imagens/time.png">
+                <img id="img_sobre" src="imagens/time3.png">
             </div>
             <div id="divTxt">
                 <p> Encomp é um encontro anual da computação organizado diretamente por professores e alunos do IFSULDEMINAS - Campus Passos, no qual reúnem minicursos e palestras para compartilhar conhecimentos e experiências. Este ano será realizado completamente online, nos dias 22, 23 e 24 de outubro, objetivando o incentivo, a curiosidade e a difusão do conhecimento para a comunidade interna do campus, assim como para toda a comunidade externa, uma vez que o evento é aberto para qualquer pessoa que se interesse por tecnologia, eletrônica, informática, robótica e que apoiam a cultura de compartilhar conhecimento e que querem complementar a formação profissional e acadêmica na área da ciência da computação. </p>
@@ -70,47 +70,39 @@
         <div class="conteudProg">
             <h2 id="titulo"> Programação </h2>
             <div class="datas">
-                <button id="botao1" onclick="programacao(1)"> 29/09 </button>
-                <button id="botao2" onclick="programacao(2)"> 30/09 </button>
-                <button id="botao3" onclick="programacao(3)"> 01/10 </button>
+                <button id="botao1" onclick="programacao(1)"> 28/09 </button>
+                <button id="botao2" onclick="programacao(2)"> 29/09 </button>
+                <button id="botao3" onclick="programacao(3)"> 30/09 </button>
+                <button id="botao4" onclick="programacao(4)"> 01/10 </button>
+                <button id="botao5" onclick="programacao(5)"> 02/10 </button>
             </div>
             <div id="divProg">
                 <div id="progInd">
+                    <img src="imagens/minicurso.png" id="icone">  
+                    <div id="descProg">
+                        <p id="tituloProg"> Minicurso React Native </p>
+                        <p id="horario"> 13:00 - 17:00 </p>
+                        <p id="responsavel"> Instrutor: Jonathan - 4° Período </p>
+                        <p id="breve_desc"> + <a href="javascript:PopUp()" id="linkMais"> Ler sobre </a> </p>
+                    </div>                                       
+                </div>
+                
+                <div id="progInd">
+                    <img src="imagens/minicurso.png" id="icone">  
+                    <div id="descProg">
+                        <p id="tituloProg"> Minicurso Computação Quântica </p>
+                        <p id="horario"> 15:00 - 17:00 </p>
+                        <p id="responsavel"> Instrutora: Amanda - 6° Período </p>
+                        <p id="breve_desc"> + <a href="javascript:PopUp()" id="linkMais"> Ler sobre </a> </p>
+                    </div>                                       
+                </div>
+
+                <div id="progInd">
                     <img src="imagens/palestra.png" id="icone">  
                     <div id="descProg">
-                        <p id="tituloProg"> Palestra do Fabrício </p>
-                        <p id="horario"> 00:00 - 00:00 </p>
-                        <p id="responsavel"> Palestrante: Fabrício Laguna - Cargo </p>
-                        <p id="breve_desc"> + <a href="javascript:PopUp()" id="linkMais"> Ler sobre </a> </p>
-                    </div>                                       
-                </div>
-
-                <div id="progInd">
-                    <img src="imagens/minicurso.png" id="icone"> 
-                    <div id="descProg">
-                        <p id="tituloProg"> Git e GitHub </p>
-                        <p id="horario"> 00:00 - 00:00 </p>
-                        <p id="responsavel"> Ministrante: Marisa Vieira - 8° período </p>
-                        <p id="breve_desc"> + <a href="javascript:PopUp()" id="linkMais"> Ler sobre </a> </p>
-                    </div>                                       
-                </div>
-
-                <div id="progInd">
-                    <img src="imagens/minicurso.png" id="icone">
-                    <div id="descProg"> 
-                        <p id="tituloProg"> Introdução ao Arduíno </p>
-                        <p id="horario"> 00:00 - 00:00 </p>
-                        <p id="responsavel"> Ministrante: Albert Medeiros - 6° período </p>
-                        <p id="breve_desc"> + <a href="javascript:PopUp()" id="linkMais"> Ler sobre </a> </p>
-                    </div>                                       
-                </div>
-
-                <div id="progInd">
-                    <img src="imagens/minicurso.png" id="icone"> 
-                    <div id="descProg">
-                        <p id="tituloProg"> Primeiros passos na computação quântica </p>
-                        <p id="horario"> 00:00 - 00:00 </p>
-                        <p id="responsavel"> Ministrante: Amanda Valério - 6° período </p>
+                        <p id="tituloProg"> Palestra Análise de Negócios </p>
+                        <p id="horario"> 19:00 - 21:00 </p>
+                        <p id="responsavel"> Palestrante: Fabrício Laguna </p>
                         <p id="breve_desc"> + <a href="javascript:PopUp()" id="linkMais"> Ler sobre </a> </p>
                     </div>                                       
                 </div>
@@ -173,3 +165,38 @@
     </footer>
 </body>
 </html>
+
+
+
+
+<!-- <div id="divProg">
+    <div id="progInd">
+        <img src="imagens/minicurso.png" id="icone">  
+        <div id="descProg">
+            <p id="tituloProg"> Minicurso React Native </p>
+            <p id="horario"> 13:00 - 17:00 </p>
+            <p id="responsavel"> Instrutor: Jonathan - 4° Período </p>
+            <p id="breve_desc"> + <a href="javascript:PopUp()" id="linkMais"> Ler sobre </a> </p>
+        </div>                                       
+    </div>
+    
+    <div id="progInd">
+        <img src="imagens/minicurso.png" id="icone">  
+        <div id="descProg">
+            <p id="tituloProg"> Minicurso Computação Quântica </p>
+            <p id="horario"> 15:00 - 17:00 </p>
+            <p id="responsavel"> Instrutora: Amanda - 6° Período </p>
+            <p id="breve_desc"> + <a href="javascript:PopUp()" id="linkMais"> Ler sobre </a> </p>
+        </div>                                       
+    </div>
+
+    <div id="progInd">
+        <img src="imagens/palestra.png" id="icone">  
+        <div id="descProg">
+            <p id="tituloProg"> Palestra Análise de Negócios </p>
+            <p id="horario"> 19:00 - 21:00 </p>
+            <p id="responsavel"> Palestrante: Fabrício Laguna </p>
+            <p id="breve_desc"> + <a href="javascript:PopUp()" id="linkMais"> Ler sobre </a> </p>
+        </div>                                       
+    </div>
+</div>   -->
