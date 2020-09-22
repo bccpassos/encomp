@@ -210,16 +210,16 @@ nav li{
 
 #responsavel{
     font-weight: bolder;
+    padding-bottom: 15px;
 }
 
-#breve_desc{
-    font-weight: bolder;
-    text-align: justify;
-    color: #FFCC29;
-}
-
-#linkMais{
+#link-meet{
+    background-color: #FFCC29;
     color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 10px;
 }
 
 #inscrever{
