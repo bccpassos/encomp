@@ -220,6 +220,7 @@ nav li{
     padding: 10px;
     font-weight: bolder;
     border-radius: 10px;
+    font-size: 15px;
 }
 
 #inscrever{
@@ -339,5 +340,8 @@ nav a{
 }
 #img_sobre{
     width: 300px;
+}
+#link-meet{
+    font-size: 12px;
 }
 }
