@@ -21,10 +21,10 @@ function regressiva(){
         minutos = parseInt(segundos_f / 60);
         segundos = parseInt(segundos_f % 60);
 
-        //document.getElementById('dia').innerHTML = dias + " d";
-        document.getElementById('hora').innerHTML = horas + " h";
-        document.getElementById('minuto').innerHTML = minutos + " m";
-        document.getElementById('segundo').innerHTML = segundos + " s";  
+        document.getElementById('dia').innerHTML = "0 d";
+        document.getElementById('hora').innerHTML = "0 h";
+        document.getElementById('minuto').innerHTML = "0 m";
+        document.getElementById('segundo').innerHTML = "0 s";  
     }, 1000);
 }
 
